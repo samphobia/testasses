@@ -10,5 +10,6 @@ namespace API.Data
         }
 
         public DbSet<AppTeacher> Teachers { get; set; }
+        public DbSet<AppStudent> Students { get; set; }
     }
 }
